@@ -1,6 +1,10 @@
 @extends('layouts.main')
 
 @section('content')
+    <div class="my-5">
+        <a href="{{ route('products.create') }}" class="btn btn-primary">CREA</a>
+    </div>
+
     <ul>
         @foreach ($products as $product)
             <li>
@@ -15,5 +19,5 @@
             </li>
         @endforeach
     </ul>
-    <a href="{{ route('product.create') }}" class="btn btn-primary"></a>
+    
 @endsection
