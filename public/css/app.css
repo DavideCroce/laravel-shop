@@ -11243,3 +11243,20 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.jumbotron {
+  height: 100vh;
+}
+
+header img {
+  height: 100px;
+}
+
+.shop-name {
+  font-weight: bolder;
+  color: #575757;
+  font-size: 25px;
+}
+
+.welcome {
+  text-transform: capitalize;
+}
