@@ -4,10 +4,13 @@ header img {
 
 .shop-name {
     font-weight: bolder;
-    color: rgb(87, 87, 87);
+    color: white;
     font-size: 25px;
 }
 
 nav {
     background-color: dodgerblue;
+    .nav-item a {
+        color: white;
+    }
 }

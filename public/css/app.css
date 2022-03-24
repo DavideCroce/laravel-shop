@@ -11253,12 +11253,15 @@ header img {
 
 .shop-name {
   font-weight: bolder;
-  color: #575757;
+  color: white;
   font-size: 25px;
 }
 
 nav {
   background-color: dodgerblue;
+}
+nav .nav-item a {
+  color: white;
 }
 
 .welcome {
