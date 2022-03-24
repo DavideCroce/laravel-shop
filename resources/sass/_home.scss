@@ -1,0 +1,17 @@
+.welcome {
+    text-transform: uppercase;
+    background-color: #f8f9fa;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.homepage {
+    height: 100vh;
+    .home-page-text {
+        color: dodgerblue;
+        text-align: center;
+        background-color: #fff;
+        border: solid 2px dodgerblue;
+    }
+}

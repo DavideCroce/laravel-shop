@@ -11257,6 +11257,24 @@ header img {
   font-size: 25px;
 }
 
+nav {
+  background-color: dodgerblue;
+}
+
 .welcome {
-  text-transform: capitalize;
+  text-transform: uppercase;
+  background-color: #f8f9fa;
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+.homepage {
+  height: 100vh;
+}
+.homepage .home-page-text {
+  color: dodgerblue;
+  text-align: center;
+  background-color: #fff;
+  border: solid 2px dodgerblue;
 }
