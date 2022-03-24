@@ -1,9 +1,9 @@
 @extends('layouts.main')
 
 @section('content')
-    <ul>
+    <ul class="d-flex flex-wrap flex-row">
         @foreach ($products as $product)
-            <li>
+            <li class="col-4">
                 <figure>
                     <img src="{{ $product->image }}" alt="">
                 </figure>
@@ -15,5 +15,5 @@
             </li>
         @endforeach
     </ul>
-    <a href="{{ route('product.create') }}" class="btn btn-primary"></a>
+    <a href="{{ route('products.create') }}" class="btn btn-primary">Add a product</a>
 @endsection
