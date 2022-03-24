@@ -3,7 +3,7 @@
 @section('content')
     <ul class="d-flex flex-wrap flex-row">
         @foreach ($products as $product)
-            <li class="col-4">
+            <li class="col-2 card">
                 <figure>
                     <img src="{{ $product->image }}" alt="">
                 </figure>
